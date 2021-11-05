@@ -28,30 +28,43 @@
     <!--  <input type="hidden" name="debug" value=1>                              -->
     <!--  <input type="hidden" name="debugEmail" value="juand100193@gmail.com">   -->
     <!--  ----------------------------------------------------------------------  -->
-    
-    <label class="slds-form-element__label" for="name">Contact Name</label><input class="slds-input" id="name" maxlength="80" name="name" size="20" type="text" /><br>
-    
-    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    
-    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-    
-    <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
-    
-    <label for="description">Description</label><textarea name="description"></textarea><br>
-    
-    <input type="hidden"  id="external" name="external" value="1" /><br>
-    
-    <input type="submit" name="submit">
+        <div class="slds-form">
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="name">Contact Name</label>
+                <div class="slds-form-element__control">
+                    <input class="slds-input" id="name" maxlength="80" name="name" size="20" type="text" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="email">Email</label>
+                <div class="slds-form-element__control">
+                    <input class="slds-input"  id="email" maxlength="80" name="email" size="20" type="text" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="phone">Phone</label>
+                <div class="slds-form-element__control">
+                    <input class="slds-input" id="phone" maxlength="40" name="phone" size="20" type="text" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="subject">Subject</label>
+                <div class="slds-form-element__control">
+                    <input class="slds-input" id="subject" maxlength="80" name="subject" size="20" type="text" />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <label class="slds-form-element__label" for="description">Description</label>
+                <div class="slds-form-element__control">
+                    <textarea class="slds-textarea" name="description"></textarea>
+                </div>
+            </div>
+            <input type="hidden"  id="external" name="external" value="1" /><br>
+            
+            <input class="slds-button slds-button_brand" type="submit" name="submit">
+        </div>
     
     </form>
-
-        <div class="slds-form-element">
-            <label class="slds-form-element__label" for="text-input-id-47">
-            <abbr class="slds-required" title="required">* </abbr>Input Label</label>
-            <div class="slds-form-element__control">
-            <input type="text" id="text-input-id-47" placeholder="Placeholder text…" required="" class="slds-input" />
-            </div>
-        </div>
     
     </body>
 </html> 

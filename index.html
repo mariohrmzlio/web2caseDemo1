@@ -54,7 +54,7 @@
                             <h5 class="card-title">Mandanos tu caso mediante el siguiente formulario</h5>
                             <div class="slds-form">
                                 <div class="slds-form-element">
-                                    <label class="slds-form-element__label" for="name">Contact Name</label>
+                                    <label class="slds-form-element__label" for="name">Nombre</label>
                                     <div class="slds-form-element__control">
                                         <input class="slds-input" id="name" maxlength="80" name="name" size="20" type="text" />
                                     </div>
@@ -66,19 +66,31 @@
                                     </div>
                                 </div>
                                 <div class="slds-form-element">
-                                    <label class="slds-form-element__label" for="phone">Phone</label>
+                                    <label class="slds-form-element__label" for="phone">Teléfono</label>
                                     <div class="slds-form-element__control">
                                         <input class="slds-input" id="phone" maxlength="40" name="phone" size="20" type="text" />
                                     </div>
                                 </div>
                                 <div class="slds-form-element">
-                                    <label class="slds-form-element__label" for="subject">Subject</label>
+                                    <label class="slds-form-element__label" for="recordType">Tipo de caso</label>
+                                    <div class="slds-form-element__control">
+                                        <div class="slds-select_container">
+                                            <select class="slds-select"  id="recordType" name="recordType">
+                                                <option value="0125f000000QSH4">Cancelación</option>
+                                                <option value="0125f000001OT2i">Solicitud de servicio</option>
+                                                <option value="">Otra</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="subject">Asunto</label>
                                     <div class="slds-form-element__control">
                                         <input class="slds-input" id="subject" maxlength="80" name="subject" size="20" type="text" />
                                     </div>
                                 </div>
                                 <div class="slds-form-element">
-                                    <label class="slds-form-element__label" for="description">Description</label>
+                                    <label class="slds-form-element__label" for="description">Descripción</label>
                                     <div class="slds-form-element__control">
                                         <textarea class="slds-textarea" name="description"></textarea>
                                     </div>

@@ -16,7 +16,7 @@
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTE: Please add the following <FORM> element to your page.             -->
     <!--  ----------------------------------------------------------------------  -->
-    
+    <div class="slds-brand-band slds-brand-band_medium slds-brand-band_group"></div>
     <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
     
     <input type=hidden name="orgid" value="00D5f000005VZaD">
@@ -28,42 +28,45 @@
     <!--  <input type="hidden" name="debug" value=1>                              -->
     <!--  <input type="hidden" name="debugEmail" value="juand100193@gmail.com">   -->
     <!--  ----------------------------------------------------------------------  -->
-        <div class="slds-form">
-            <div class="slds-form-element">
-                <label class="slds-form-element__label" for="name">Contact Name</label>
-                <div class="slds-form-element__control">
-                    <input class="slds-input" id="name" maxlength="80" name="name" size="20" type="text" />
+    <article class="slds-card">
+        <div class="slds-card__body slds-card__body_inner">
+            <div class="slds-form">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="name">Contact Name</label>
+                    <div class="slds-form-element__control">
+                        <input class="slds-input" id="name" maxlength="80" name="name" size="20" type="text" />
+                    </div>
                 </div>
-            </div>
-            <div class="slds-form-element">
-                <label class="slds-form-element__label" for="email">Email</label>
-                <div class="slds-form-element__control">
-                    <input class="slds-input"  id="email" maxlength="80" name="email" size="20" type="text" />
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="email">Email</label>
+                    <div class="slds-form-element__control">
+                        <input class="slds-input"  id="email" maxlength="80" name="email" size="20" type="text" />
+                    </div>
                 </div>
-            </div>
-            <div class="slds-form-element">
-                <label class="slds-form-element__label" for="phone">Phone</label>
-                <div class="slds-form-element__control">
-                    <input class="slds-input" id="phone" maxlength="40" name="phone" size="20" type="text" />
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="phone">Phone</label>
+                    <div class="slds-form-element__control">
+                        <input class="slds-input" id="phone" maxlength="40" name="phone" size="20" type="text" />
+                    </div>
                 </div>
-            </div>
-            <div class="slds-form-element">
-                <label class="slds-form-element__label" for="subject">Subject</label>
-                <div class="slds-form-element__control">
-                    <input class="slds-input" id="subject" maxlength="80" name="subject" size="20" type="text" />
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="subject">Subject</label>
+                    <div class="slds-form-element__control">
+                        <input class="slds-input" id="subject" maxlength="80" name="subject" size="20" type="text" />
+                    </div>
                 </div>
-            </div>
-            <div class="slds-form-element">
-                <label class="slds-form-element__label" for="description">Description</label>
-                <div class="slds-form-element__control">
-                    <textarea class="slds-textarea" name="description"></textarea>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="description">Description</label>
+                    <div class="slds-form-element__control">
+                        <textarea class="slds-textarea" name="description"></textarea>
+                    </div>
                 </div>
+                <input type="hidden"  id="external" name="external" value="1" /><br>
+                
+                <input class="slds-button slds-button_brand" type="submit" name="submit">
             </div>
-            <input type="hidden"  id="external" name="external" value="1" /><br>
-            
-            <input class="slds-button slds-button_brand" type="submit" name="submit">
         </div>
-    
+    </article>
     </form>
     
     </body>

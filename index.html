@@ -149,17 +149,17 @@
                     embedded_svc.settings.entryFeature = 'LiveAgent';
             
                     embedded_svc.init(
-                        'https://neoris-6a-dev-ed.my.salesforce.com',
-                        'https://mr09112021-developer-edition.na163.force.com/liveAgentSetupFlow',
+                        'https://neoris37-dev-ed.my.salesforce.com',
+                        'https://hc-tp-hoc--17c803e4ee8-developer-edition.na163.force.com/defaulthelpcenter9Nov',
                         gslbBaseURL,
-                        '00D5f000005wLl7',
-                        'Chat_agent',
+                        '00D5f000005VZaD',
+                        'Chat_Agent',
                         {
                             baseLiveAgentContentURL: 'https://c.la4-c1-ia4.salesforceliveagent.com/content',
-                            deploymentId: '5725f000000LloM',
-                            buttonId: '5735f000000LmH2',
+                            deploymentId: '5725f0000009Ag5',
+                            buttonId: '5735f0000009B8i',
                             baseLiveAgentURL: 'https://d.la4-c1-ia4.salesforceliveagent.com/chat',
-                            eswLiveAgentDevName: 'Chat_agent',
+                            eswLiveAgentDevName: 'Chat_Agent',
                             isOfflineSupportEnabled: true
                         }
                     );
@@ -167,7 +167,7 @@
             
                 if (!window.embedded_svc) {
                     var s = document.createElement('script');
-                    s.setAttribute('src', 'https://neoris-6a-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+                    s.setAttribute('src', 'https://neoris37-dev-ed.my.salesforce.com/embeddedservice/5.0/esw.min.js');
                     s.onload = function() {
                         initESW(null);
                     };
